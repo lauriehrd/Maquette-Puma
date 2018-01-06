@@ -8,6 +8,7 @@
 header{
 
 	height: 577px;
+	text-align: center;
 }
 
 video{
@@ -25,10 +26,21 @@ main{
 	background-color: rgb(247, 247, 247);
 }
 
+.logo2{
+
+	width: 70px;
+	height: 70px;
+	margin-bottom: 4rem;
+/*	position: relative;
+	left: 36rem;
+	top: 5rem;*/
+	border-bottom: 1px solid rgb(255,92,0);
+}
+
 h1{
 	
-	position: relative;
-	top:8rem;
+/*	position: relative;
+	top:8rem;*/
 	color: white;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 40px;
@@ -38,8 +50,8 @@ h1{
 
 header h2{
  	
- 	position: relative;
-	top:8rem;
+/* 	position: relative;
+	top:8rem;*/
 	font-size: 16px;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -47,6 +59,9 @@ header h2{
 	text-align: center;
 }
 
+.hgroup {
+	margin-top: 6rem;
+}
 button{
 
 	padding: 13px;
@@ -57,9 +72,10 @@ button{
 }
 
 .button1 {
-	position: relative;
-	top:11rem;
-	left: 33rem;
+	margin-top: 4rem;
+/*	position: relative;
+	top:11rem;*/
+	/*left: 33rem;*/
 
 }
 
@@ -75,17 +91,19 @@ button:hover{
 	width: 109px;
 	background-color: rgb(255,92,0);
 	position: relative;
-	left: 17rem;
 	bottom: 44px;
+	margin-left: 268px;
 
 }
 
 
 #puma img{
 	
-	position: relative;
+/*	position: relative;
 	left: 13px;
-	top: 6px;
+	top: 6px;*/
+	margin-top:12px;
+
 
 }
 
@@ -224,16 +242,6 @@ button:hover{
 
 }
 
-.logo2{
-
-	width: 70px;
-	height: 70px;
-	position: relative;
-	left: 36rem;
-	top: 5rem;
-	border-bottom: 1px solid rgb(255,92,0);
-}
-
 footer{
 
 	height: 307px;
@@ -288,6 +296,7 @@ footer{
   display: flex;
   width: 756px;
   height: 377px;
+  flex-wrap: wrap;
 }
 
 .cadrePhoto {
@@ -333,16 +342,14 @@ footer{
 .bouton2{
 
 	border: 1px solid grey;
-	position: relative;
-	left: 36rem;
 	color: grey;
-	top: 3rem;
 	font-size: 11px;
 	padding: 8px 25px;
 }
 
 .finmain{
-
+	margin-top: 6rem; 
+	text-align: center;
 	height: 125px;
 }
 
@@ -374,4 +381,25 @@ footer p{
 
 	font-size: 15px;
 	color: grey;
+}
+
+@media screen and (max-width: 780px){
+
+.cadreGeneral {
+  margin: auto;
+  display: flex;
+  width: 379px;
+  height: 377px;
+  flex-wrap: wrap;
+}
+
+.global{
+	flex-wrap: wrap;
+	width: 378px;
+	margin-bottom:20rem;
+
+}
+
+.main {
+	margin-bottom: 30rem;
 }
